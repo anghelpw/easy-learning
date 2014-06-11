@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easy Learning</string>
+    <string name="shape_descript">Shape Form</string>
+    <string name="tv_status">This is a status message</string>
+
+    <!-- Main Activity -->
+
+    <string name="ib_user_descript">User Image</string>
+    <string name="ib_close_descript">X Image</string>
+    <string name="ib_view_descript">Lesson Image</string>
+    <string name="ib_next_descript">Next Image</string>
+    <string name="ib_previous_descript">Previous Image</string>
+
+    <!-- View Easy Activity -->
+
+    <string name="tv_view_easy">View Easy</string>
+    <string name="tv_view_info_easy">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.</string>
+
+    <!-- View Medium Activity -->
+
+    <string name="tv_view_medium">View Medium</string>
+    <string name="tv_view_info_medium">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+    nibh euismod tincidunt ut laoreet.</string>
+
+    <!-- View Hard Activity -->
+
+    <string name="tv_view_hard">View Hard</string>
+    <string name="tv_view_info_hard">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy 
+    nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis 
+    nostrud exerci tation.</string>
+
+    <!-- View Content Activity -->
+
+    <string name="btn_take_quiz">Take Quiz</string>
+
+    <!-- Quiz Activity -->
+
+    <string name="btn_next_question">Next</string>
+    <string name="tv_question_number">Question number: #1</string>
+    <string name="tv_question">This is a question</string>
+    <string name="rb_answer_a">A) Nam liber tempor cum soluta nobis eleifend option congue nihil.</string>
+    <string name="rb_answer_b">B) Eodem modo typi, qui nunc nobis videntur parum clari.</string>
+    <string name="rb_answer_c">C) Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</string>
+    <string name="rb_answer_d">D) Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</string>
+    <string name="tv_quiz_result_easy">Quiz Result</string>
+    <string name="tv_quiz_resul">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. 
+    Mirum est notare quam littera gothica.</string>
+
+    <!-- Login Activity -->
+
+    <string name="tv_login">User Login</string>
+    <string name="btn_create_acc_link">Create account</string>
+    <string name="btn_sign_in_link">Sign in</string>
+    <string name="iv_book_descript">Book Image</string>
+
+    <!-- Sign In Activity -->
+
+    <string name="tv_sign_in">Type your Info</string>
+    <string name="et_sign_in_email">Username or Email</string>
+    <string name="et_sign_in_pass">Password</string>
+    <string name="btn_sign_in">SIGN IN</string>
+    <string name="btn_forgot_pass">Forgot your password?</string>
+
+    <!-- Create Account Activity -->
+
+    <string name="tv_create_account">Personal Info</string>
+    <string name="et_register_email">Email</string>
+    <string name="et_register_username">Username</string>
+    <string name="et_register_pass">Password</string>
+    <string name="btn_create_acc">CREATE</string>
+    <string name="tv_status_details">Congratulations. You have Successfully Registered!</string>
+
+    <!-- Acount Details Activity -->
+
+    <string name="tv_account_details">Personal Details</string>
+    <string name="tv_details_email">Email</string>
+    <string name="tv_details_username">Username</string>
+    <string name="tv_details_time">2014/04/09 15:18:04</string>
+    <string name="btn_link_sing_in">BACK</string>
+
+    <!-- Reset Password Activity -->
+
+    <string name="tv_reset_pass">Password Reset</string>
+    <string name="et_user_email">Email</string>
+    <string name="btn_reset_pass">Reset your password!</string>
+
+</resources>

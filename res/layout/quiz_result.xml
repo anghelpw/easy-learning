@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:columnCount="1"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_column="0"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="40dp"
+        android:layout_row="0"
+        android:text="@string/tv_quiz_result_easy"
+        android:textColor="#000"
+        android:textSize="80sp" />
+
+    <GridLayout
+        android:layout_width="450dp"
+        android:layout_height="500dp"
+        android:layout_column="0"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="40dp"
+        android:layout_row="1"
+        android:background="@drawable/shape"
+        android:columnCount="1"
+        android:orientation="vertical" >
+
+        <RatingBar
+            android:id="@+id/rbQuizResult"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_row="0"
+            android:numStars="8"
+            android:rating="0.0"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/tvQuizResult"
+            android:layout_column="0"
+            android:layout_gravity="top|center"
+            android:gravity="center"
+            android:layout_margin="50dp"
+            android:layout_row="1"
+            android:text="@string/tv_quiz_resul"
+            android:textSize="30sp" />
+    </GridLayout>
+
+    <ImageView
+        android:layout_column="0"
+        android:layout_gravity="bottom|center"
+        android:layout_row="2"
+        android:contentDescription="@string/iv_book_descript"
+        android:src="@drawable/books" />
+
+</GridLayout>
