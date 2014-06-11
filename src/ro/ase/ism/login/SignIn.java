@@ -77,7 +77,6 @@ public class SignIn extends Activity {
 				if ((!signInEmail.getText().toString().equals(""))
 						&& (!signInPass.getText().toString().equals(""))) {
 					NetAsync(v);
-					new ProcessSignIn().execute();
 				} else {
 					statusSignIn.setText("One or more fields are empty!");
 				}

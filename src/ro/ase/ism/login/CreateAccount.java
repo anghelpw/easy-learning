@@ -66,7 +66,7 @@ public class CreateAccount extends Activity {
 				if ((!registerEmail.getText().toString().equals(""))
 						&& (!registerUsername.getText().toString().equals(""))
 						&& (!registerPassword.getText().toString().equals(""))) {
-					new ProcessCreateAcc().execute();
+					 NetAsync(v);
 				} else {
 					statusCreateAcc.setText("One or more fields are empty!");
 				}
